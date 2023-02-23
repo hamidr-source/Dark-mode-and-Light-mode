@@ -8,12 +8,12 @@
 body{
     background-color: var(--bg-color);
     color: var(--main-color);
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap; 
     font-family: sans-serif;
 }
 h1{
-    margin: 2vh auto;
+    margin: 5vh auto;
     font-size: calc(2rem + 2vw);
 }
 .app{
@@ -28,6 +28,7 @@ h1{
     height: 30vh;
     padding: .5em;
     border-radius: .5em;
+    margin: .5em;
 }
 .container-two{
     border: 1px solid var(--border-color);
@@ -36,6 +37,7 @@ h1{
     height: 30vh;
     padding: .5em;
     border-radius: .5em;
+    margin: .5em;
 }
 .container-three{
     border: 1px solid var(--border-color);
@@ -44,6 +46,7 @@ h1{
     height: 30vh;
     padding: .5em;
     border-radius: .5em;
+    margin: .5em;
 }
 .container-four{
     border: 1px solid var(--border-color);
@@ -52,4 +55,20 @@ h1{
     height: 30vh;
     padding: .5em;
     border-radius: .5em;
+    margin: .5em;
+}
+.dark-light-btn{
+    font-size: .7rem;
+    margin: .6em;
+    width: 4vmin;
+    height: 5vmin;
+    padding: .6em;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: .5em;
+    transition: .5s;
+}
+.dark-light-btn:hover{
+    box-shadow: 0 0 10px var(--main-color);
 }
