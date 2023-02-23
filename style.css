@@ -1,0 +1,55 @@
+:root{
+    font-size: calc(.5em + .7vw);
+    line-height: 1.5;
+    --bg-color: rgb(214, 214, 214);
+    --main-color: rgb(24, 24, 24);
+    --border-color: rgb(49, 40, 40);
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+h1{
+    margin: 2vh auto;
+    font-size: calc(2rem + 2vw);
+}
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-one{
+    border: 1px solid var(--border-color);
+    font-size: 1rem;
+    width: 40vw;
+    height: 30vh;
+    padding: .5em;
+    border-radius: .5em;
+}
+.container-two{
+    border: 1px solid var(--border-color);
+    font-size: 1rem;
+    width: 40vw;
+    height: 30vh;
+    padding: .5em;
+    border-radius: .5em;
+}
+.container-three{
+    border: 1px solid var(--border-color);
+    font-size: 1rem;
+    width: 40vw;
+    height: 30vh;
+    padding: .5em;
+    border-radius: .5em;
+}
+.container-four{
+    border: 1px solid var(--border-color);
+    font-size: 1rem;
+    width: 40vw;
+    height: 30vh;
+    padding: .5em;
+    border-radius: .5em;
+}
