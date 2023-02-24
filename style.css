@@ -1,9 +1,9 @@
 :root{
     font-size: calc(.5em + .7vw);
     line-height: 1.5;
-    --bg-color: rgb(214, 214, 214);
-    --main-color: rgb(24, 24, 24);
-    --border-color: rgb(49, 40, 40);
+    --bg-color: #ccc;
+    --main-color: #242424;
+    --border-color: #404949;
 }
 body{
     background-color: var(--bg-color);
